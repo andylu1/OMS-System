@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+    <customer>
+        <username>andy1</username>
+        <password>password</password>
+        <name>andy</name>
+        <email>andy@gmail.com</email>
+    </customer>
+</customers>

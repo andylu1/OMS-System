@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login
-    Created on : 17/04/2019, 12:37:50 PM
+    Document   : login.jsp
+    Created on : 18/04/2019, 3:01:34 PM
     Author     : admin
 --%>
 
@@ -9,25 +9,29 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login Page</title>
+        <title>Login</title>
     </head>
     <body>
         <h1>Login</h1>
-        <div>
-            <table>
-                <tr>
-                    <td>Username</td>
-                    <td><input></td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td><input type="password"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><input type="submit" value="Login"></td>
-                </tr>
-            </table>
-        </div>
+        <form action="loginAction.jsp" method="POST">
+        <table>
+        <tbody>
+           <tr>
+                <td><label for="">Username</label></td>
+                <td><input name="username" type="text" value=""></td>
+           </tr>
+           <tr>
+                <td><label for="">Password</label></td>
+                <td><input name="password" type="password" value=""></td>
+           </tr>
+           <tr>
+                <td><label for=""></label></td>
+                <td><input type="submit" value="Login"></td>
+           </tr>
+        </tbody>
+        </table>
+        <% String username = request.getParameter("username"); %>
+        <% String password = request.getParameter("password"); %>
+        </form>
     </body>
 </html>

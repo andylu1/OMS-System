@@ -24,11 +24,11 @@
             </tr>
             <tr>
                 <td>Email Address</td>
-                <td><input type="email"></td>
+                <td><input type="email"></td> <!--Will autocheck if email is in correct format but not perfect-->
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="password"></td>
+                <td><input type="password"></td> <!--Password security-->
             </tr>
             <tr>
                 <td>Mobile Number</td>
@@ -36,11 +36,11 @@
             </tr>
             <tr>
                 <td>Date of Birth</td>
-                <td><input type="date"></td>
+                <td><input type="date"></td> <!--Input is a date picker which is either text field or GUI-->
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Register"></td>
+                <td><input type="submit" value="Register"></td> <!--Creates a button with 'Register' on it-->
             </tr>
         </table>
     </body>
