@@ -1,8 +1,183 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <movies>
     <movie>
-        <moviename>Scoop</moviename>
-        <year>2003</year>
+        <movieID>3</movieID>
+        <movieName>Rush Hour</movieName>
+        <movieYear>1998</movieYear>
+        <moviePrice>12.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/81qNphGLeIL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/JMiFsFQcFLE</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>10</movieID>
+        <movieName>Inspector Gadget 2</movieName>
+        <movieYear>2003</movieYear>
+        <moviePrice>9.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51bL1KuUI-L._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/-eeQVMkPg8k</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>13</movieID>
+        <movieName>Mary Poppins</movieName>
+        <movieYear>1964</movieYear>
+        <moviePrice>15.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/91Draym48nL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/YfkEQDPlb8g</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>15</movieID>
+        <movieName>Shanghai Noon</movieName>
+        <movieYear>2000</movieYear>
+        <moviePrice>10.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/517XIMCHC2L._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/FqHg5fc_0_U</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>18</movieID>
+        <movieName>The Tuxedo</movieName>
+        <movieYear>2002</movieYear>
+        <moviePrice>8.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/519587FWPGL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/iJSxnd88AcQ</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>19</movieID>
+        <movieName>Space Jam</movieName>
+        <movieYear>1996</movieYear>
+        <moviePrice>12.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/518EXSQS3CL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/oKNy-MWjkcU</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>0</movieID>
+        <movieName>Scoop</movieName>
+        <movieYear>2006</movieYear>
+        <moviePrice>10.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51wrWsMKgwL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/v8LiPKDW83Q</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>1</movieID>
+        <movieName>Rush Hour 2</movieName>
+        <movieYear>2001</movieYear>
+        <moviePrice>12.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51EYFEK8MZL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/SCTzYY95Aw4</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>2</movieID>
+        <movieName>Rush Hour 3</movieName>
+        <movieYear>2007</movieYear>
+        <moviePrice>13.0</moviePrice>
+        <movieStock>15</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51zm5GyUX6L.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/4CWJ7mJ9GfE</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>17</movieID>
+        <movieName>The Da Vinci Code</movieName>
+        <movieYear>2006</movieYear>
+        <moviePrice>12.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/41efGoaRcRL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/lfqHb6INj3w</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>4</movieID>
+        <movieName>Spirited Away</movieName>
+        <movieYear>2001</movieYear>
+        <moviePrice>15.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/71zqphejhbL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/ByXuk9QqQkk</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>5</movieID>
+        <movieName>Over the Hedge</movieName>
+        <movieYear>2006</movieYear>
+        <moviePrice>10.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/812TKObBhTL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/kkrGBlvGK4I</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>6</movieID>
+        <movieName>Finding Nemo</movieName>
+        <movieYear>2003</movieYear>
+        <moviePrice>11.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51-difUGanL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/wZdpNglLbt8</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>7</movieID>
+        <movieName>Back to the Future</movieName>
+        <movieYear>1985</movieYear>
+        <moviePrice>13.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51D159D4B9L._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/qvsgGtivCgs</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>8</movieID>
+        <movieName>Jurassic Park</movieName>
+        <movieYear>1993</movieYear>
+        <moviePrice>13.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/81dEScugRUL._SX342_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/QWBKEmWWL38</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>9</movieID>
+        <movieName>Charlie and the Chocolate Factory</movieName>
+        <movieYear>2005</movieYear>
+        <moviePrice>10.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/819jC0GABiL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/OFVGCUIXJls</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>12</movieID>
+        <movieName>Garfield</movieName>
+        <movieYear>2004</movieYear>
+        <moviePrice>4.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/41L-cXv1SrL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/0HqNhLZ4odI</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>14</movieID>
+        <movieName>Fearless</movieName>
+        <movieYear>2006</movieYear>
+        <moviePrice>13.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51V9UYXFgXL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/d1SSn64xeTg</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>16</movieID>
+        <movieName>Flushed Away</movieName>
+        <movieYear>2006</movieYear>
+        <moviePrice>12.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/81kGF5ePCsL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/m1ZA1qU5xsI</movieTrailerURL>
+    </movie>
+    <movie>
+        <movieID>11</movieID>
+        <movieName>The Simpsons Movie</movieName>
+        <movieYear>2007</movieYear>
+        <moviePrice>10.0</moviePrice>
+        <movieStock>20</movieStock>
+        <moviePosterURL>https://images-na.ssl-images-amazon.com/images/I/51NVOuhiLUL._SY445_.jpg</moviePosterURL>
+        <movieTrailerURL>https://www.youtube.com/embed/XPG0MqIcby8</movieTrailerURL>
     </movie>
 </movies>
