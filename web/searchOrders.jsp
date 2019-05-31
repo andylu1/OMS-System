@@ -113,7 +113,7 @@
                     boolean resultFound = false; //boolean value will change depending on result
                     for (int i = 0; i <= len - 1; i++) { //Loop through a list of orders and find matching order ID
                         Order order = orders.getOrder(i);
-                        if (order.getOrderID() == orderNumber && order.getOrderCancelled() == false) { //Make sure the order is not cancelled
+                        if (order.getOrderID() == orderNumber && order.getOrderCancelled() == false && order.getOrderCustomerID() == customer.getCustomerID()) { //Make sure the order is not cancelled
                             resultFound = true; //Change value for later purpose
                             SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
                             String formattedOrderDate = formatter.format(order.getOrderDate()); //Modify format of the date to be neater
