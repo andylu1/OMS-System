@@ -1,6 +1,7 @@
 <%@page import="uts.isd.Customer"%>
 <%@page import="uts.isd.Customers"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page errorPage="login.jsp"%>
 
 <%
     if (session.getAttribute("customer") != null) { //If the user is already logged in, send them to the main page

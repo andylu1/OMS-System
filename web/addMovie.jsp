@@ -1,5 +1,6 @@
 <%@page import="uts.isd.Customer"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page errorPage="login.jsp"%>
 
 <%
     if (session.getAttribute("customer") == null) { //If the user is not logged in, then send them to the login page

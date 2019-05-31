@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page errorPage="main.jsp"%>
 
 <%
     if (session.getAttribute("customer") != null) { //If a user is already logged in, then take them to the main/home page

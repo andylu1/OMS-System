@@ -5,6 +5,7 @@
 <%@page import="uts.isd.Order"%>
 <%@page import="uts.isd.Orders"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page errorPage="login.jsp"%>
 
 <%
     String filePath = application.getRealPath("WEB-INF/orders.xml"); //Link to XML file
