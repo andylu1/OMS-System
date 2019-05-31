@@ -1,28 +1,45 @@
 package uts.isd;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name="customer")
 public class Customer implements Serializable {
-    @XmlElement
+    @XmlElement(name="customerID")
+    private int customerID;
+    @XmlElement(name="username")
     private String username;
-    @XmlElement
+    @XmlElement(name="password")
     private String password;
-    @XmlElement
+    @XmlElement(name="name")
     private String name;
-    @XmlElement
+    @XmlElement(name="email")
     private String email;
+    @XmlElement(name="isStaff")
+    private boolean isStaff;
+    @XmlElement(name="accountCancel")
+    private boolean accountCancel;
 
     public Customer() {
     }
 
-    public Customer(String username, String password, String name, String email) {
+    public Customer(int customerID, String username, String password, String name, String email, boolean isStaff, boolean accountCancel) {
+        this.customerID = customerID;
         this.username = username;
         this.password = password;
         this.name = name;
         this.email = email;
+        this.isStaff = isStaff;
+        this.accountCancel = accountCancel;
+    }
+    
+    public int getCustomerID() {
+        return customerID;
+    }
+    
+    public void setCustomerID(int customerID) {
+        this.customerID = customerID;
     }
  
     public String getUsername() {
@@ -55,5 +72,21 @@ public class Customer implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    
+    public boolean getIsStaff() {
+        return isStaff;
+    }
+    
+    public void setIsStaff(boolean isStaff) {
+        this.isStaff = isStaff;
+    }
+    
+    public boolean getAccountCancel() {
+        return this.accountCancel;
+    }
+    
+    public void setAccountCancel(boolean accountCancel) {
+        this.accountCancel = accountCancel;
     }
 }

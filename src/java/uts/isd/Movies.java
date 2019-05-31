@@ -36,4 +36,22 @@ public class Movies implements Serializable {
         }
         return null;
     }
+    
+    public Movie getExactMovie(int movieID) {
+        for (Movie movie: list) {
+            if(movie.getMovieID() == movieID) {
+                return movie;
+            }
+        }
+        return null;
+    }
+    
+    public Movie getMovieByName(String movieName) {
+        for (Movie movie: list) {
+            if(movie.getMovieName().equals(movieName)) {
+                return movie;
+            }
+        }
+        return null;
+    }
 }
